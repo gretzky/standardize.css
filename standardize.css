@@ -1,0 +1,340 @@
+/**
+ * standardize.css v1.0.0
+ *
+ * a compilation of popular CSS semantic guidelines
+ */
+
+::selection {
+  text-shadow: none;
+}
+
+/**
+ * Prevent adjustments of font size after orientation change
+ * [IE on Windows Phone and iOS]
+  */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Remove margin [all browsers] */
+body {
+  margin: 0;
+}
+
+/**
+ * Correct font size and margin on `h1` elements
+ * within a `section` and `article` [Chrome, Firefox, and Safari]
+ */
+section > h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+article > h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Add correct display [IE] */
+main {
+  display: block;
+}
+
+/**
+ * Add correct box-sizing [Firefox]
+ * Show overflow [Edge and IE)
+ */
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+/**
+ * Correct inheritence/scaling of font size [all browsers)
+ * Correct odd `em` font sizing [all browsers]
+ */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/**
+ * Remove gray background on active links [IE10]
+ * Remove gaps in underline [iOS, Safari]
+ */
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+/**
+ * Remove bottom border [Chrome, Firefox]
+ * Add correct text decoration [Chrone, Edge, IE, Opera, Safari]
+ */
+ abbr[title] {
+   border-bottom: none;
+   text-decoration: underline;
+   text-decoration: underline dotted;
+ }
+
+/* Add correct font weight [Chrome, Edge, Safari] */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/* Correct font style [Android] */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Add correct size [all browsers]
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` from affecting line height [all browsers]
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/**
+ * Remove border on images inside links [IE]
+ */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide overflow [IE]
+ */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Remove margin [Firefox, Safari] */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+}
+
+/* Show overflow [IE, Edge] */
+button,
+input {
+  overflow: visible;
+}
+
+/**
+ * Remove inheritance of text transform [Edge, Firefox, IE]
+ */
+button,
+select {
+  text-transform: none;
+}
+
+/* Correct inability to `ickable types [iOS] */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/* Remove inner border/padding [Firefox] */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/* Restore focus styles unset by the above */
+button:-moz-focusing,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusing,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/* Correct padding [Firefox] */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * Correct text wrapping [Edge, IE]
+ * Correct color inheritence [IE]
+ * Remove padding [all browsers]
+ */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+/* Add correct vertical alignment [Chrome, Firefox, Opera] */
+progress {
+  vertical-align: baseline;
+}
+
+/* Remove default vertical scrollbar [IE] */
+textarea {
+  overflow: auto;
+}
+
+/* Add correct box sizing & remove padding [IE] */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Correct cursor style of increment/decrement buttons [Chrome] */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* Fix appearance [Chrome, Safari[ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+/* Remove inner padding & cancel buttons [Chrome & Safari on macOS] */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* Correct inability to style clickable types [iOS, Safari] */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+}
+
+/* Add correct display [all browsers] */
+summary {
+  display: list-item;
+}
+
+/* Add correct display [IE] */
+template {
+  display: none;
+}
+
+/* Remove tapping delay on clickable elements [IE] */
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+/* Add correct display [IE] */
+[hidden] {
+  display: none;
+}
+
+/* Accessibility */
+
+/* Hide visually and from screen readers */
+.hidden {
+  display: none !important;
+}
+
+/**
+ * Hide visually, but available for screen readers
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ * https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+
+/**
+ * Extends `visuallyhidden` to allow element
+ * to be focusable when navigated to via keyboard
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
+}
+
+/* Hide visually and from screen readers, but maintain layout */
+.invisible {
+  visibility: hidden;
+}
+
+/* Change cursor on busy elements */
+[aria-busy="true"] {
+  cursor: progress;
+}
+
+/* Change cursor on control elements */
+[aria-controls] {
+  cursor: pointer;
+}
+
+/* Change display on visually hidden accessible elements */
+[aria-hidden="false"][hidden]:not(:focus) {
+  clip: rect(0, 0, 0, 0);
+  display: inherit;
+  position: absolute;
+}
+
+/* Change cursor on disabled, not editable, inoperable elements */
+[aria-disabled] {
+  cursor: default;
+}

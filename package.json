@@ -1,0 +1,26 @@
+{
+  "name": "standardize",
+  "version": "1.0.0",
+  "description": "A compilation of normalize.css, standardize.css, and html5bp- without the opinions and with more accessibility.",
+  "main": "standardize.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gretzky/standardize.css.git"
+  },
+  "keywords": [
+    "standardize",
+    "css",
+    "standardize.css",
+    "normalize",
+    "sanitize"
+  ],
+  "author": "gretzky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gretzky/standardize.css/issues"
+  },
+  "homepage": "https://github.com/gretzky/standardize.css#readme"
+}
