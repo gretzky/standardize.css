@@ -1,6 +1,6 @@
 {
   "name": "standardize",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A compilation of normalize.css, standardize.css, and html5bp- without the opinions and with more accessibility.",
   "main": "standardize.css",
   "scripts": {
