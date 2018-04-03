@@ -11,7 +11,7 @@
 /**
  * Prevent adjustments of font size after orientation change
  * [IE on Windows Phone and iOS]
-  */
+*/
 html {
   box-sizing: border-box;
   -ms-text-size-adjust: 100%;
@@ -22,29 +22,99 @@ html {
 /* Improve consistency of default fonts */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, Roboto,
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
 }
 
 /* MiniReset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 
 /**
@@ -101,11 +171,11 @@ a {
  * Remove bottom border [Chrome, Firefox]
  * Add correct text decoration [Chrone, Edge, IE, Opera, Safari]
  */
- abbr[title] {
-   border-bottom: none;
-   text-decoration: underline;
-   text-decoration: underline dotted;
- }
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
 
 /* Add correct font weight [Chrome, Edge, Safari] */
 b,
@@ -263,6 +333,7 @@ textarea {
 /* Correct inability to style clickable types [iOS, Safari] */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
+  font: inherit;
 }
 
 /* Add correct display [all browsers] */

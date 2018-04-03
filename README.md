@@ -27,4 +27,4 @@ Support for outdated browsers has also been removed (mainly IE 8 and 9).
 
 ## Shoutout
 
-Of course, thanks to [Nicholas Gallagher](https://github.com/necolas), [Jonathan Neal](https://github.com/jonathantneal), and the creators and mainters of [HTML5-Boilerplate](https://github.com/h5bp/) for their research and work in browser-supporting CSS.
+thanks to [Nicholas Gallagher](https://github.com/necolas), [Jonathan Neal](https://github.com/jonathantneal), and the creators and mainters of [HTML5-Boilerplate](https://github.com/h5bp/) for their research and work in browser-supporting CSS.
